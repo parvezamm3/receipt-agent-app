@@ -6,7 +6,7 @@
 
 1.  **リポジトリをクローンします:**
     ```bash
-    git clone https://github.com/your-username/ReceiptAgentApp.git
+    git clone https://github.com/parvezamm3/recipe-agent-app.git
     cd ReceiptAgentApp
     ```
 

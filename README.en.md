@@ -6,7 +6,7 @@ This project is a web application to manage and process receipts. It consists of
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ReceiptAgentApp.git
+    git clone https://github.com/parvezamm3/recipe-agent-app.git
     cd ReceiptAgentApp
     ```
 
