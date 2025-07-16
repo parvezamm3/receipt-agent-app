@@ -1,43 +1,43 @@
-# Receipt Agent App
+# レシートエージェントアプリ
 
-This project is a web application to manage and process receipts. It consists of a Python FastAPI backend and a React frontend.
+このプロジェクトは、レシートを管理および処理するためのWebアプリケーションです。Python FastAPIバックエンドとReactフロントエンドで構成されています。
 
-## Setup & Installation
+## セットアップとインストール
 
-1.  **Clone the repository:**
+1.  **リポジトリをクローンします:**
     ```bash
     git clone https://github.com/your-username/ReceiptAgentApp.git
     cd ReceiptAgentApp
     ```
 
-2.  **Backend Setup (Python/FastAPI):**
-    *(From the project root directory)*
+2.  **バックエンドのセットアップ (Python/FastAPI):**
+    *(プロジェクトのルートディレクトリから)*
     ```bash
-    # Create and activate a virtual environment
+    # 仮想環境を作成してアクティブ化します
     python -m venv venv
     venv\Scripts\activate
 
-    # Install dependencies
+    # 依存関係をインストールします
     pip install -r requirements.txt
     ```
 
-3.  **Frontend Setup (React):**
-    *(From the project root directory)*
+3.  **フロントエンドのセットアップ (React):**
+    *(プロジェクトのルートディレクトリから)*
     ```bash
-    # Navigate to the UI directory
+    # UIディレクトリに移動します
     cd receipt-ui
 
-    # Install dependencies
+    # 依存関係をインストールします
     npm install
     ```
 
-## Running the Application
+## アプリケーションの実行
 
-You will need three separate terminals to run the Receipt Agent, backend and frontend servers.
+レシートエージェント、バックエンド、フロントエンドのサーバーを実行するには、3つの個別のターミナルが必要です。
 
-1.  **Start the Recipt Agent:**
-    *(In a terminal, from the project root directory)*
-    If virtual enviroment is not activated
+1.  **レシートエージェントを開始します:**
+    *(ターミナルで、プロジェクトのルートディレクトリから)*
+    仮想環境がアクティブ化されていない場合
     ```bash
     venv\Scripts\activate
     ```
@@ -45,26 +45,26 @@ You will need three separate terminals to run the Receipt Agent, backend and fro
     python controller.py
     ```
 
-2.  **Start the Backend Server:**
-    *(In a new terminal, from `backend/api` directory)*
-    Open a new terminal and activate the virtual environment and backend/api directory
+2.  **バックエンドサーバーを開始します:**
+    *(新しいターミナルで、`backend/api`ディレクトリから)*
+    新しいターミナルを開き、仮想環境と`backend/api`ディレクトリをアクティブ化します
     ```bash
     venv\Scripts\activate
     cd backend\api
     ```
-    **Start the Flask Server**
+    **Flaskサーバーを起動します**
     ```bash
     flask run
     ```
-    The API will be running at `http://127.0.0.1:5000`.
+    APIは`http://127.0.0.1:5000`で実行されます。
 
-3.  **Start the Frontend Development Server:**
-    *(In a new terminal, from the `receipt-ui` directory)*
+3.  **フロントエンド開発サーバーを開始します:**
+    *(新しいターミナルで、`receipt-ui`ディレクトリから)*
     ```bash
-    # Navigate to the UI directory if you are not already there
+    # UIディレクトリにまだいない場合は、そこに移動します
     cd receipt-ui
 
-    # Start the React development server
+    # React開発サーバーを起動します
     npm run dev
     ```
-    The application will be accessible at `http://localhost:5173` (or the port specified in the terminal).
+    アプリケーションは`http://localhost:5173`（またはターミナルで指定されたポート）でアクセスできます。
