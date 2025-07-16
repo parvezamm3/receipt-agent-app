@@ -7,7 +7,7 @@
 1.  **リポジトリをクローンします:**
     ```bash
     git clone https://github.com/parvezamm3/receipt-agent-app.git
-    cd ReceiptAgentApp
+    cd receipt-agent-app
     ```
 
 2.  **バックエンドのセットアップ (Python/FastAPI):**
